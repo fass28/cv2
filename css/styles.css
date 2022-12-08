@@ -1,0 +1,152 @@
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ TAG ELEMENT SELECTORS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-size: 200%;
+}
+
+h1{
+    color:#66BFBF ;
+    font-size: 90px;
+    margin: 10px auto 40px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 9rem;
+    line-height: 2;
+}
+
+h2{
+    color:#66BFBF ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Merriweather', serif;
+}
+
+a{
+    color: #11999E;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ CLASS SELECTOR ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+.top-container{
+    background-color: hsl(131, 57%, 91%);
+    position: relative;
+    padding-top: 200px;
+}
+
+.intro{
+    width: 30%;
+    margin: 20px auto;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 100px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+}
+
+.profile-img{
+    margin-top: 30px;
+    height: 400px;
+}
+
+.footer-link{
+    color:#11999E;
+    font-size: 20px;
+
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-billar{
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.skill-videogame{
+    width: 25%;
+    float: right;
+    padding-right: 0;
+}
+
+.horizontal-line{
+    border:dotted #EAF6F6 15px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+/* .btn {
+    width: 115px;
+    height: 25px;
+    background: #11999E;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 2;
+} */
+
+.btn {
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #25994e;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.bottom-container{
+       color: #EAF6F6;
+       background-color: #66BFBF;
+       bottom: 0;
+       width: 100%;
+       padding: 20px 0 20px;
+}
+
+.copyrigth{
+    font-size: 15px;
+    /* margin-bottom: 0;  otra opcion sin usar el padding en el bottom-container*/
+    padding-top: 55px;
+}
+
+.contact-me{
+    margin: 40px auto 120px;
+}
+
+/* .anchor{
+    margin-top: 30px;
+} */
